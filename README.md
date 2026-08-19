@@ -40,8 +40,8 @@ whois networkwalks.com
 · Domain Status: clientDeleteProhibited, clientRenewProhibited, clientTransferProhibited, clientUpdateProhibited
 
 📸 Screenshot
-<img width="1920" height="1019" alt="whois1" src="https://github.com/user-attachments/assets/b810f926-3d9e-44c9-9368-2ba27e5a4b40" />
-<img width="1920" height="1019" alt="whois2" src="https://github.com/user-attachments/assets/5cf76cf9-3b88-4ae4-b47c-8c315a4d2fcb" />
+<img width="1920" height="1019" alt="whois1" src="https://github.com/user-attachments/assets/6a52b51d-4abc-4c55-b22f-a70cb6adc46e" />
+
 
 Step 2: whatweb — Web Technology Fingerprinting
 
