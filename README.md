@@ -42,7 +42,6 @@ whois networkwalks.com
 📸 Screenshot
 
 <img width="1920" height="1019" alt="whois1" src="https://github.com/user-attachments/assets/e11511bd-8c77-4150-b6e1-99f9a4729ab6" />
-<img width="1920" height="1019" alt="whois1" src="https://github.com/user-attachments/assets/fd22b368-4071-4d9f-b1ee-4ba10b5c7e7d" />
 
 Step 2: whatweb — Web Technology Fingerprinting
 
