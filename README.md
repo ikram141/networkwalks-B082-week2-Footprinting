@@ -176,6 +176,42 @@ All findings are based on publicly available information. No systems were exploi
 
 ---
 
+
+
+
+## 🧪 Phase 2: GHDB (Google Hacking Database)
+
+---
+
+### Task 2a: Security Cameras
+**Dorks Used:** Multiple webcam dorks  
+**Total Live Cameras Found:** 9
+
+| No. | Link | Relevant Dork |
+|-----|------|---------------|
+| 1 | `http://109.233.191.130:8080/` | `intitle:"webcamXP" inurl:8080` |
+| 2 | `https://www.shodan.io/host/184.57.102.6#5400` | `intitle:"webcamXP 5" inurl:8080 'Live'` |
+| 3 | `http://75.149.26.30:1024/?src=1&mode=0` | `intitle:"webcamXP 5" -download` |
+| 4 | `https://www.shodan.io/host/184.57.102.6` | `intitle:"yawcam" "It's a webcam!" "user" "pass"` |
+| 5 | `http://n3enm.dyndns.org:8888/` | `intitle:"Webcam" inurl:WebCam.htm` |
+| 6 | `http://99.114.240.169:8080/` | `intitle:"webcamXP 5" inurl:admin.html` |
+| 7 | `http://85.93.53.175:8080/gallery.html?page=6` | `intitle:"WEBCAM 7" -inurl:/admin.html` |
+| 8 | `http://95.255.183.164:8080/multi.html` | `intitle:"WEBCAM 7" -inurl:/admin.html` |
+| 9 | `http://62.202.21.238:8081/` | `intitle:"webcamXP" inurl:8080` |
+
+---
+
+### Task 2b: Mathematics eBooks (PDF)
+**Dork Used:** `intitle:index.of "parent directory" mathematics pdf`  
+**Total PDFs Found:** 4
+
+| No. | Link |
+|-----|------|
+| 1 | `http://erewhon.superkuh.com/library/Math/A%20Concise%20Introduction%20to%20Mathematical%20Logic_%203rd%20ed_%20Wolfgang%20Rautenberg_%202009.pdf` |
+| 2 | `http://erewhon.superkuh.com/library/Math/An%20Introduction%20to%20Tensors%20and%20Group%20Theory%20for%20Physicists_%20Nadir%20Jeevanjee_%202011.pdf` |
+| 3 | `http://erewhon.superkuh.com/library/Math/Direct%20Methods%20in%20the%20Calculus%20of%20Variations_%20Enrico%20Giusti_%202005.pdf` |
+| 4 | `http://erewhon.superkuh.com/library/Math/Learning%20and%20Teaching%20Mathematics%20Simulations_%20Dieter%20Ross_%202011.pdf` |
+
 👨‍💻 Author
 
 · Name: Ikram Ullah
