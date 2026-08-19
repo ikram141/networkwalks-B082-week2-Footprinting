@@ -1,6 +1,8 @@
 Week 2 - Phase 1: Footprinting with Kali Tools
 ## Cybersecurity & Ethical Hacking Project (Batch B082)
+
 ## 📜 Disclaimer
+
 > **Warning:** This project is for **educational purposes only**. All activities were performed on **networkwalks.com** with **written permission** from the owner as part of the Networkwalks Cybersecurity Internship (Batch B082).  
 > Unauthorized use of these techniques on systems you do not own is **illegal** and may lead to criminal charges.
 
@@ -39,9 +41,8 @@ whois networkwalks.com
 
 📸 Screenshot
 
-screenshots/1-whois.png
-
----
+<img width="1920" height="1019" alt="whois1" src="https://github.com/user-attachments/assets/e11511bd-8c77-4150-b6e1-99f9a4729ab6" />
+<img width="1920" height="1019" alt="whois1" src="https://github.com/user-attachments/assets/fd22b368-4071-4d9f-b1ee-4ba10b5c7e7d" />
 
 Step 2: whatweb — Web Technology Fingerprinting
 
@@ -65,10 +66,7 @@ whatweb networkwalks.com
 · HTTP Headers: permissions-policy, referrer-policy, upgrade-insecure-requests
 
 📸 Screenshot
-
-screenshots/2-whatweb.png
-
----
+<img width="1920" height="1019" alt="whatweb" src="https://github.com/user-attachments/assets/facd38c8-acb2-4b68-b483-f15a3e377841" />
 
 Step 3: nslookup — DNS Resolution
 
@@ -90,9 +88,7 @@ nslookup networkwalks.com
 
 📸 Screenshot
 
-screenshots/3-nslookup.png
-
----
+<img width="1920" height="1019" alt="nslookup" src="https://github.com/user-attachments/assets/950a9240-16cb-48ce-b88a-3bff071fb3ad" />
 
 Step 4: wafw00f — WAF Detection
 
@@ -113,9 +109,8 @@ wafw00f networkwalks.com
 
 📸 Screenshot
 
-screenshots/4-wafw00f.png
 
----
+<img width="1920" height="1019" alt="wafw00f" src="https://github.com/user-attachments/assets/fbce9299-e3c7-43a0-ad82-c2f67305e239" />
 
 Step 5: dnsrecon — DNS Enumeration
 
@@ -142,9 +137,7 @@ dnsrecon -d networkwalks.com
 
 📸 Screenshot
 
-screenshots/5-dnsrecon.png
-
----
+<img width="1920" height="1019" alt="dnsrecon" src="https://github.com/user-attachments/assets/a72f86fe-5e8e-4793-a8e0-b31b044c5fa5" />
 
 📂 Project Structure
 
