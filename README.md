@@ -212,6 +212,76 @@ All findings are based on publicly available information. No systems were exploi
 | 3 | `http://erewhon.superkuh.com/library/Math/Direct%20Methods%20in%20the%20Calculus%20of%20Variations_%20Enrico%20Giusti_%202005.pdf` |
 | 4 | `http://erewhon.superkuh.com/library/Math/Learning%20and%20Teaching%20Mathematics%20Simulations_%20Dieter%20Ross_%202011.pdf` |
 
+## 🧪 Phase 3: Maltego — Email Harvesting
+
+### Task: Find Email Addresses Related to Target Domain
+
+#### 📖 Definition
+Maltego is an OSINT (Open Source Intelligence) tool used for gathering information about a target. It can find email addresses, domains, and relationships between entities.
+
+#### 🖥️ Steps
+1. Open Maltego and create a new graph.
+2. Add a **Domain** entity and set it to `networkwalks.com`.
+3. Run email-related transforms to harvest email addresses.
+
+#### 📊 Result
+- **Emails Found:** (Count likho, e.g., 5-10)
+- **Status:** Error encountered (Error ID: 586302bc0c0e492397d260b746433af5). Resolution in progress.
+
+#### 📸 Screenshot
+<img width="837" height="319" alt="email domain" src="https://github.com/user-attachments/assets/2665bc4c-ba2e-44b2-9301-50afe258d3bb" /><img width="1920" height="1080" alt="maltego" src="https://github.com/user-attachments/assets/ff4e322d-f90d-4bc0-b2a1-857c4ebd8a87" />
+
+
+
+## 🧪 Phase 4: theHarvester — Email Harvesting
+
+### Task: Gather Emails & Subdomains
+
+#### 📖 Definition
+`theHarvester` is a passive reconnaissance tool that collects emails, subdomains, and hosts from public sources like search engines, PGP key servers, and Shodan.
+
+#### 🖥️ Command
+```bash
+theHarvester -d microsoft.com -l 500 -b baidu
+```
+
+📊 Result
+
+· Target Domain: microsoft.com
+· Source Used: Baidu
+· Emails Found: (Count likho)
+· Hosts/Subdomains Found: (Count likho)
+
+📸 Screenshot
+<img width="1920" height="1080" alt="50" src="https://github.com/user-attachments/assets/50bd590d-4423-41a1-9218-159fe9f0960f" />
+<img width="1920" height="1080" alt="theharvester" src="https://github.com/user-attachments/assets/5e29446c-2f4c-41b6-b522-0b380ff05180" />
+
+
+🧪 Phase 5: Zenmap — Network Scanning
+
+Task: Ping Scan on Local Network
+
+📖 Definition
+
+Zenmap is the official GUI for Nmap. A ping scan (-sn) discovers live hosts on a network without scanning ports.
+
+🖥️ Command
+
+```bash
+nmap -sn 10.70.91.246
+```
+
+📊 Result
+
+· Target IP: 10.70.91.246
+· Status: Host is up
+· Time: 2.12 seconds
+
+📸 Screenshot
+
+<img width="1920" height="1080" alt="namp1" src="https://github.com/user-attachments/assets/bc0207a8-4f73-4c57-ba13-963eae70dce1" />
+<img width="821" height="706" alt="nmap" src="https://github.com/user-attachments/assets/abae1e9a-3c44-478c-b61d-3d2e04deec7c" />
+
 👨‍💻 Author
 
 · Name: Ikram Ullah
